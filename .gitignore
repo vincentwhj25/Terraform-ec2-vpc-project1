@@ -1,0 +1,6 @@
+# Terraform 忽略文件
+*.tfstate
+*.tfstate.*
+.terraform/
+*.backup
+.terraform.lock.hcl
