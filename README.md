@@ -2,12 +2,15 @@
 
 This project demonstrates the use of Terraform to provision a basic AWS environment.  
 It creates:
-- custom VPC
-- public subnet
-- security group allowing SSH
-- EC2 instance running Amazon Linux
+- Custom VPC
+- Public subnet
+- Internat gatway
+- Route table
+- Security group allowing SSH
+- EC2 instance running Amazon Linux on ap-southeast-1
 
 ## Future Improvements
 - Add Key Pair for SSH access
-- Add Internet Gateway and Route Table
 - Use modules for better organization
+- Attach EIP
+- SG security restric, prevent using 0.0.0.0/0
